@@ -28,10 +28,10 @@ fun main() {
         2 -> {
             println("Hasil dari $input_1 - $input_2 = " + kurang(input_1!!.toDouble(), input_2!!.toDouble()))
         }
-//
-//        3 -> {
-//            println("Hasil dari $input_1 * $input_2 = " + kali(input_1!!.toDouble(), input_2!!.toDouble()))
-//        }
+
+        3 -> {
+            println("Hasil dari $input_1 * $input_2 = " + kali(input_1!!.toDouble(), input_2!!.toDouble()))
+        }
 //
 //        4 -> {
 //            println("Hasil dari $input_1 / $input_2 = " + bagi(input_1!!.toDouble(), input_2!!.toDouble()))
