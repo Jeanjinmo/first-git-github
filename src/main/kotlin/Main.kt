@@ -42,3 +42,8 @@ fun main() {
 fun tambah(input_1: Double, input_2: Double): Double{
     return input_1 + input_2
 }
+
+//method kurang
+fun kurang(bil1: Double, bil2: Double) : Double{
+    return bil1 - bil2
+}
