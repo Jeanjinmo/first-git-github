@@ -47,3 +47,8 @@ fun tambah(input_1: Double, input_2: Double): Double{
 fun kurang(bil1: Double, bil2: Double) : Double{
     return bil1 - bil2
 }
+
+//method kali
+fun kali(bil1: Double, bil2: Double) : Double{
+    return bil1 * bil2
+}
