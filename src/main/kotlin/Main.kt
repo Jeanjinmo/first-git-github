@@ -22,19 +22,19 @@ fun main() {
     println("pilih Operasi : ")
     when (operasi) {
         1 -> {
-            println("Hasil dari $input_2 + $input_1 = " + tambah(input_1!!.toDouble(), input_2!!.toDouble()))
+            println("Hasil dari $input_1 + $input_2 = " + tambah(input_1!!.toDouble(), input_2!!.toDouble()))
         }
 
-//        2 -> {
-//            println("Hasil : " + kurang(input_1, input_2))
-//        }
+        2 -> {
+            println("Hasil dari $input_1 - $input_2 = " + kurang(input_1!!.toDouble(), input_2!!.toDouble()))
+        }
 //
 //        3 -> {
-//            println("Hasil : " + kali(input_1, input_2))
+//            println("Hasil dari $input_1 * $input_2 = " + kali(input_1!!.toDouble(), input_2!!.toDouble()))
 //        }
 //
 //        4 -> {
-//            println("Hasil : " + bagi(input_1, input_2))
+//            println("Hasil dari $input_1 / $input_2 = " + bagi(input_1!!.toDouble(), input_2!!.toDouble()))
 //        }
     }
 }
